@@ -1,0 +1,55 @@
+@font-face {
+    font-family: mj;
+    src: url(Mj_Net_0.ttf);
+}
+body{
+    background-color: rgb(215, 215, 228);
+    direction: rtl;
+    font-family: mj;
+}
+button{
+    font-family: mj;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+nav img{
+    width: 250px;
+    height: 80px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    color:black;
+}
+
+header img{
+    width: 300px;
+}
+.khadamat, .tagrobe{
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.khadamat img, .tagrobe img{
+    width: 300px;
+}
